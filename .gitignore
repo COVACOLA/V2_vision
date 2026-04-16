@@ -1,0 +1,7 @@
+/.codex
+/.venv
+/README.md
+/README_IMPLEMENTACION.md
+/__pycache__
+/requirements.txt
+/tests

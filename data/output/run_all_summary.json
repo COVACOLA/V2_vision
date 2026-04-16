@@ -1,0 +1,115 @@
+{
+  "num_images": 3,
+  "num_ok": 3,
+  "num_failed": 0,
+  "results": [
+    {
+      "image": "panel-1.png",
+      "status": "ok",
+      "detection_method": "anchor_tags",
+      "bbox": [
+        122,
+        172,
+        253,
+        403
+      ],
+      "center": [
+        248,
+        373
+      ],
+      "corners": [
+        [
+          122,
+          173
+        ],
+        [
+          373,
+          172
+        ],
+        [
+          375,
+          575
+        ],
+        [
+          122,
+          568
+        ]
+      ],
+      "result_json": "data/output/panel-1_result.json",
+      "debug_panel": "data/output/panel-1_debug_panel.jpg",
+      "warped": "data/output/panel-1_warped.jpg"
+    },
+    {
+      "image": "panel-2.png",
+      "status": "ok",
+      "detection_method": "anchor_tags",
+      "bbox": [
+        106,
+        47,
+        324,
+        369
+      ],
+      "center": [
+        268,
+        231
+      ],
+      "corners": [
+        [
+          106,
+          58
+        ],
+        [
+          333,
+          47
+        ],
+        [
+          430,
+          378
+        ],
+        [
+          181,
+          416
+        ]
+      ],
+      "result_json": "data/output/panel-2_result.json",
+      "debug_panel": "data/output/panel-2_debug_panel.jpg",
+      "warped": "data/output/panel-2_warped.jpg"
+    },
+    {
+      "image": "panel-3.png",
+      "status": "ok",
+      "detection_method": "edge_mask",
+      "bbox": [
+        286,
+        50,
+        253,
+        224
+      ],
+      "center": [
+        412,
+        162
+      ],
+      "corners": [
+        [
+          286,
+          171
+        ],
+        [
+          473,
+          50
+        ],
+        [
+          539,
+          153
+        ],
+        [
+          353,
+          274
+        ]
+      ],
+      "result_json": "data/output/panel-3_result.json",
+      "debug_panel": "data/output/panel-3_debug_panel.jpg",
+      "warped": "data/output/panel-3_warped.jpg"
+    }
+  ]
+}
