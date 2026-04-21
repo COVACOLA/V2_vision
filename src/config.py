@@ -38,12 +38,14 @@ MAX_BORDER_TOUCHES = 2
 ANCHOR_TAG_LAYOUT = {
     "top_left": (0.03, 0.025, 0.155, 0.10),
     "top_right": (0.815, 0.025, 0.155, 0.10),
-    "bottom_left": (0.03, 0.755, 0.155, 0.10),
+    # Ajuste empirico: acerca el borde inferior proyectado al panel real
+    # cuando se usa la ancla inferior izquierda como referencia.
+    "bottom_left": (0.03, 0.86, 0.155, 0.10),
 }
 
 ANCHOR_THRESHOLD = 45
 ANCHOR_MIN_AREA = 200
-ANCHOR_MIN_FILL = 0.60
+ANCHOR_MIN_FILL = 0.50
 ANCHOR_MIN_ASPECT = 0.70
 
 # Cuando esta activado, el pipeline guarda mascaras y resultados

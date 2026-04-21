@@ -9,30 +9,30 @@
       "detection_method": "anchor_tags",
       "bbox": [
         122,
-        172,
-        253,
-        403
+        174,
+        252,
+        358
       ],
       "center": [
         248,
-        373
+        353
       ],
       "corners": [
         [
           122,
-          173
+          175
         ],
         [
-          373,
-          172
+          374,
+          174
         ],
         [
-          375,
-          575
+          368,
+          532
         ],
         [
-          122,
-          568
+          123,
+          521
         ]
       ],
       "result_json": "data/output/panel-1_result.json",
@@ -44,31 +44,31 @@
       "status": "ok",
       "detection_method": "anchor_tags",
       "bbox": [
-        106,
-        47,
-        324,
-        369
+        107,
+        50,
+        312,
+        319
       ],
       "center": [
-        268,
-        231
+        263,
+        209
       ],
       "corners": [
         [
-          106,
-          58
+          107,
+          60
         ],
         [
-          333,
-          47
+          335,
+          50
         ],
         [
-          430,
-          378
+          419,
+          342
         ],
         [
-          181,
-          416
+          172,
+          369
         ]
       ],
       "result_json": "data/output/panel-2_result.json",
@@ -78,33 +78,33 @@
     {
       "image": "panel-3.png",
       "status": "ok",
-      "detection_method": "edge_mask",
+      "detection_method": "anchor_tags",
       "bbox": [
-        286,
-        50,
-        253,
-        224
+        106,
+        66,
+        224,
+        259
       ],
       "center": [
-        412,
-        162
+        218,
+        195
       ],
       "corners": [
         [
-          286,
-          171
+          214,
+          66
         ],
         [
-          473,
-          50
+          330,
+          129
         ],
         [
-          539,
-          153
+          212,
+          325
         ],
         [
-          353,
-          274
+          106,
+          255
         ]
       ],
       "result_json": "data/output/panel-3_result.json",
